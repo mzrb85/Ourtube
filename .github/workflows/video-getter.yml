@@ -3,12 +3,7 @@ name: 01 - 🎬 دانلود یوتیوب
 on:
   workflow_dispatch:
     inputs:
-      activation_key:
-        description: '🔑 کدفعالسازی (یکبار در ابتدا ) اگر ندارید از اینجا بگیرید : pay.avasam.ir/link/769604'
-        required: false
-        default: ''
-        type: string
-      video_urls:
+          video_urls:
         description: '🔗 لینک ویدیو ( چند لینک با فاصله )'
         required: true
         type: string
