@@ -3,7 +3,7 @@ name: 01 - 🎬 دانلود یوتیوب
 on:
   workflow_dispatch:
     inputs:
-          video_urls:
+        video_urls:
         description: '🔗 لینک ویدیو ( چند لینک با فاصله )'
         required: true
         type: string
@@ -25,12 +25,7 @@ on:
           - 720
           - 480
           - audio
-      password:
-        description: '🔒 رمز ( اختیاری برای محافظت )'
-        required: false
-        default: ''
-        type: string
-
+      
 jobs:
   check-activation:
     name: "🔍 بررسی فعالسازی"
